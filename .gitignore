@@ -1,0 +1,27 @@
+﻿
+*.vspscc
+*.vssscc
+*.user
+*.suo
+Thumbs.db
+obj/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.pidb
+*.userprefs
+*.resharper
+*.cache
+*.gpState
+*.dotCover
+test-results
+<<<<<<< HEAD
+*_mm_cache.bin
+*.docstates
+=======
+
+*.docstates
+Tests/TechTalk.SpecFlow.Specs.Silverlight4.Web/ClientBin/*
+>>>>>>> upstream/master

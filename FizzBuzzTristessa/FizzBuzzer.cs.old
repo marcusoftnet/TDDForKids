@@ -1,0 +1,42 @@
+﻿using System;
+
+namespace FizzBuzzTristessa
+{
+    public class FizzBuzzer
+    {
+        public string FizzBuzzIt(int number)
+        {
+            if (number % 3 == 0 && number % 5 == 0)
+                return "FizzBuzz";
+
+            if (number % 3 == 0)
+                return "Fizz";
+
+            if (number % 5 == 0)
+                return "Buzz";
+
+            return number.ToString();
+        }
+
+        public string UpTo(int number)
+        {
+            var result = string.Empty;
+
+            for (var i = 1; i < number +1; i++)
+            {
+                result = result + FizzBuzzIt(i) + ", ";
+            }
+
+            result = TrimEnd(result);
+            Console.WriteLine("THE RESULT: " + result);
+
+            return result;
+        }
+
+        private string TrimEnd(string result)
+        {
+            result = result.Substring(0, result.Length - 2);
+            return result;
+        }
+    }
+}

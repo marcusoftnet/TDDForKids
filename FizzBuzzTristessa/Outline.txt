@@ -1,0 +1,19 @@
+﻿Presentation
+	Marcus
+	Tristessa
+	Teach you something really cool -> even parents coding don't
+
+Why tests?
+	What is the hardest thing in programming?
+	How do you know if a flashlight works?
+
+Today we're going to
+	C# - like Java but from MS
+	Write a little game-solver
+	Fizz Buzz
+		Play on boards
+
+Coding
+	I've started writing a program here but it's not right.
+	Let's see if you can help me write it?
+	This is the first tests
